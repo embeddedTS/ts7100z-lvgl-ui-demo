@@ -34,7 +34,7 @@ static struct gpio_desc gpio_btn_desc[] = {
 };
 
 static struct gpio_desc gpio_hs_desc[] = {
-    { "/dev/gpiochip5", 15, "GPIO\n6 15", &style_gpio_btn, NULL, NULL},
+    { "/dev/gpiochip5", 15, "GPIO\n5 15", &style_gpio_btn, NULL, NULL},
     {},
 };
 
