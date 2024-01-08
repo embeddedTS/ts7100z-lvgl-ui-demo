@@ -165,7 +165,7 @@ void lv_meter(lv_obj_t *tab, int h, int w)
         lv_obj_t *label_arc = lv_label_create(meter);
         lv_label_set_text_static(label_arc, adc_desc[i].legend);
         /* The offset of the label location is fixed */
-        lv_obj_align(label_arc, LV_ALIGN_CENTER, 20, (i * 10) + 65);
+        lv_obj_align(label_arc, LV_ALIGN_CENTER, 20, 95 + (i * -10));
         lv_obj_add_style(label_arc, &style_legend, LV_PART_MAIN);
     }
 }
